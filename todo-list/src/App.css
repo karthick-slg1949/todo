@@ -1,0 +1,57 @@
+.home{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.input{
+  width: 300px;
+  padding: 10px;
+  border-bottom: 2px solid;
+  outline: none;
+}
+.button{
+  padding: 10px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+.task{
+  display: flex;
+  align-items: center;
+  width: 345px;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  height: 35px;
+  padding: 2px 5px 2px 5px;
+  margin-top: 2px;
+}
+.checkbox{
+  display: flex;
+  align-items: center;
+}
+.line_through{
+  text-decoration: line-through;
+}
+.checkbox .icon{
+  margin-right: 5px;
+  font-size: 15px;
+}
+.task div span{
+  margin: 0px 5px 0px 4px;
+}
+.task div .icon{
+  cursor: pointer;
+}
+.custom-bg {
+  background-color: #ffcc00;
+  padding: 20px;
+}
+.background {
+  background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Fbeautiful%2520nature%2F&psig=AOvVaw2RI2m1itmOkHCxd0VuWjgY&ust=1728408889817000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKCssYHn_IgDFQAAAAAdAAAAABAE');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+}
+
